@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="compact"
       sizing="mediumLargeSizeLargeTitles"
-      background="aurora"
+      background="floatingGradient"
       cardStyle="glass-elevated"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="layered"
@@ -45,7 +45,7 @@ export default function LandingPage() {
         <HeroBillboardCarousel
           title="Bibito"
           description="Award-winning music artist crafting bold, innovative sounds that resonate globally. Discover the latest releases, live performances, and exclusive content."
-          background={{ variant: "aurora" }}
+          background={{ variant: "sparkles-gradient" }}
           tag="Artist Portfolio"
           tagIcon={Music}
           buttons={[
